@@ -7,68 +7,115 @@ const services = [
         id: 1,
         name: 'نقل العفش بالكويت',
         description: 'خدمة نقل العفش والأثاث في الكويت بأحدث الوسائل وأفضل الأسعار مع ضمان سلامة الأثاث وخدمة فاخرة',
-        image: 'assets/images/furniture-moving.jpg',
-        url: 'services/furniture-moving-kuwait.html',
+        image: '../images/',
+        url: 'https://www.bashir-mover.com/',
         location: 'الكويت',
-        category: 'نقل عفش',
-        price: 'ابتداءً من 150 د.ك',
+        category: ' بشاير الخير ',
+        price: 'اثاث الكويت',
         borderClass: 'petroleum-border'
     },
+   
     {
         id: 2,
-        name: 'تنظيف المنازل بالرياض',
-        description: 'خدمة تنظيف شاملة للمنازل والشقق في الرياض بعمالة مدربة ومواد تنظيف عالية الجودة مع ضمان النظافة',
-        image: 'assets/images/gulf-cleaning.jpg',
-        url: 'https://cleaning-riyadh.com',
-        location: 'الرياض',
-        category: 'تنظيف',
-        price: 'ابتداءً من 200 ر.س',
-        borderClass: 'rose-border'
-    },
-    {
-        id: 3,
-        name: 'تنظيف المنازل بجدة',
-        description: 'أفضل خدمات التنظيف في جدة للمنازل والمكاتب مع ضمان الجودة والنظافة التامة وخدمة عملاء متميزة',
-        image: 'assets/images/gulf-cleaning.jpg',
-        url: 'https://cleaning-jeddah.com',
+        name: 'تنظيف المنازل جدة',
+        description: 'خدمة تنظيف شاملة للمنازل والشقق بعمالة مدربة ومواد تنظيف عالية الجودة مع ضمان النظافة',
+        image: 'https://naqaa-clean.com/blog/water-leak-detection.png',
+        url: 'https://naqaa-clean.com/',
         location: 'جدة',
         category: 'تنظيف',
-        price: 'ابتداءً من 180 ر.س',
-        borderClass: 'charcoal-border'
+        price: 'افضل الأسعار',
+        borderClass: 'rose-border'
     },
+
     {
         id: 4,
-        name: 'صيانة المكيفات بدبي',
-        description: 'خدمة صيانة وتنظيف المكيفات في دبي بأحدث التقنيات وأفضل الأسعار مع ضمان شامل على الخدمة',
-        image: 'assets/images/gulf-cleaning.jpg',
-        url: 'https://ac-maintenance-dubai.com',
-        location: 'دبي',
+        name: 'صيانة المكيفات بالرياض',
+        description: 'خدمة صيانة وتنظيف المكيفات في الرياض بأحدث التقنيات وأفضل الأسعار مع ضمان شامل على الخدمة',
+        image: 'https://ironcool.net/img/carousel-1.jpg',
+        url: 'https://ironcool.net/',
+        location: 'الرياض',
         category: 'صيانة',
         price: 'ابتداءً من 100 د.إ',
         borderClass: 'silver-border'
     },
     {
-        id: 5,
-        name: 'تنظيف السجاد بالدوحة',
-        description: 'خدمة تنظيف السجاد والموكيت في الدوحة بأحدث المعدات والمواد الآمنة مع ضمان إزالة البقع',
-        image: 'assets/images/gulf-cleaning.jpg',
-        url: 'https://carpet-cleaning-doha.com',
-        location: 'الدوحة',
-        category: 'تنظيف',
-        price: 'ابتداءً من 80 ر.ق',
+       id: 5,
+        name: 'نقل العفش بجدة',
+        description: 'اكزو موف تقدم خدمة نقل العفش والأثاث في الرياض بأحدث الوسائل وبأفضل الأسعار مع ضمان سلامة الأثاث وخدمة فاخرة.',
+
+        image: 'https://exzofor.com/Artboard%206.avif',
+        url: 'https://exzofor.com/',
+        location: 'جدة',
+        category: 'نقل عفش',
+        price: ' ميفوكس',
         borderClass: 'petroleum-border'
     },
     {
         id: 6,
-        name: 'خدمات السباكة بأبوظبي',
-        description: 'خدمات السباكة والصرف الصحي في أبوظبي على مدار 24 ساعة مع فريق متخصص وضمان شامل وخدمة طوارئ',
-        image: 'assets/images/gulf-cleaning.jpg',
-        url: 'https://plumbing-abudhabi.com',
-        location: 'أبوظبي',
-        category: 'صيانة',
-        price: 'ابتداءً من 100 د.إ',
+        name: 'خدمات النظافة المنزلية  ',
+        description: 'نقدم خدمات تنظيف شاملة للمنازل والفلل والشقق والقصور بأعلى معايير الجودة، مع عمالة تنظيف محترفة وأحدث تقنيات التنظيف',
+        image: 'https://getlamaaclean.com/Artboard%206.png',
+        url: 'https://getlamaaclean.com/',
+        location: 'الرياض',
+        category: 'لمعة',
+        price: 'كلين',
         borderClass: 'rose-border'
-    }
+    },
+     {
+        id: 7,
+        name: 'نقل العفش بالرياض',
+        description: 'نقل أثاث وعفش في الرياض بأسلوب حديث، مع ضمان الأمان الكامل للعفش وخدمة عملاء راقية وبأسعار مناسبة.',
+        image: 'https://naqlaty-ship.com/Artboard%205.avif',
+        url: 'https://naqlaty-ship.com/',
+        location: 'الرياض',
+        category: 'نقل عفش',
+        price: 'عفشك بأمان',
+        borderClass: 'petroleum-border'
+    },
+     {
+        id: 9,
+        name: 'نقل العفش بالرياض',
+        description: 'نقل الأثاث والعفش في الرياض بخدمة فاخرة، أسعار تنافسية، وضمان كامل لسلامة الأثاث.',
+        image: 'https://www.primomoves.com/serv2.avif',
+        url: 'https://www.primomoves.com/',
+        location: 'الرياض',
+        category: 'نقل عفش',
+        price: ' بريمو موفرز',
+        borderClass: 'petroleum-border'
+    },
+     {
+        id: 8,
+        name: 'نقل العفش بجدة',
+        description: 'نقل أثاث وعفش في جدة بأسلوب حديث، مع ضمان الأمان الكامل للعفش وخدمة عملاء راقية وبأسعار مناسبة.',
+        image: 'https://meuvex-furniture.com/Artboard%201%20copy.webp',
+        url: 'https://meuvex-furniture.com/',
+        location: 'جدة',
+        category: 'نقل عفش',
+        price: ' ميفوكس',
+        borderClass: 'petroleum-border'
+    },
+      {
+        id: 6,
+        name: 'نظافة منزلك  ',
+        description: 'نقدم خدمات تنظيف شاملة للمنازل والفلل والشقق والقصور بأعلى معايير الجودة، مع عمالة تنظيف محترفة وأحدث تقنيات التنظيف',
+        image: 'https://cleanplusteam.com/pest_control.jpg',
+        url: 'https://cleanplusteam.com/',
+        location: 'الرياض',
+        category: 'بلس كلين ',
+        price: 'كلين',
+        borderClass: 'rose-border'
+    },
+      {
+        id: 6,
+        name: 'النظافه المثالية ',
+        description: 'نقدم خدمات تنظيف شاملة للمنازل والفلل والشقق والقصور بأعلى معايير الجودة، مع عمالة تنظيف محترفة وأحدث تقنيات التنظيف',
+        image: 'https://www.cleanwithfresh.com/images/blog/home-disinfection.png',
+        url: 'https://www.cleanwithfresh.com/',
+        location: 'جدة',
+        category: ' فريش ',
+        price: 'كلين',
+        borderClass: 'rose-border'
+    },
 ];
 
 // Gulf Services Main Class
@@ -168,7 +215,7 @@ class GulfServices {
         
         card.innerHTML = `
             <div class="relative">
-                <img src="${service.image}" alt="${service.name}" class="w-full h-48 object-cover">
+                <img src="${service.image}" alt="${service.name}" class="w-full h-48 object-cover rounded-t-lg">
                 <div class="absolute top-4 left-4 bg-petroleum text-white px-3 py-1 rounded-full text-sm font-medium">
                     ${service.location}
                 </div>
